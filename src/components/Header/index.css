@@ -1,0 +1,110 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.bg-container {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 1px #dcdcdc;
+}
+
+.menu-container {
+  height: 11vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  background-color: transparent;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.logo {
+  height: 40px;
+  width: 45px;
+}
+
+.hamburger-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hamburger-icon {
+  font-size: 30px;
+}
+
+.modal-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 458px;
+  background-color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-container {
+    max-width: 1140px;
+    width: 100%;
+  }
+}
+
+.home-icon {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+}
+
+.list-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.text {
+  color: #0b011a;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.item-link {
+  text-decoration: none;
+  color: #0b011a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.close-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  align-self: flex-end;
+}
+
+.close-icon {
+  font-size: 20px;
+  color: #616e7c;
+}
